@@ -64,7 +64,7 @@ email.set_content(email_message)
 
 #setting up username and password
 email_id = "ncnitish6250@gmail.com"
-password = "Physics006"
+password = " "
 # Create smtp server
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()
